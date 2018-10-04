@@ -1,2 +1,2 @@
-# CocosCreatorCrypto
-cocos install node -crypto
+# hello-world
+Hello world new project template.
