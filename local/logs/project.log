@@ -1,0 +1,549 @@
+2018-10-03T07:14:17.386Z - normal: Load ~/.CocosCreator/settings.json
+2018-10-03T07:14:17.388Z - normal: checking language setting...
+2018-10-03T07:14:17.389Z - normal: Language: en
+2018-10-03T07:14:17.800Z - success: protocol editor-framework registered
+2018-10-03T07:14:17.800Z - success: protocol app registered
+2018-10-03T07:14:17.800Z - success: protocol theme registered
+2018-10-03T07:14:17.801Z - success: protocol packages registered
+2018-10-03T07:14:17.801Z - success: protocol unpack registerred
+2018-10-03T07:14:17.801Z - success: protocol disable-commonjs registerred
+2018-10-03T07:14:18.931Z - normal: connected!
+2018-10-03T07:14:18.934Z - normal: Check project /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling
+2018-10-03T07:14:18.936Z - normal: Initializing project /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling
+2018-10-03T07:14:18.942Z - normal: Initializing Cocos2d
+2018-10-03T07:14:19.474Z - normal: Initializing Asset Database
+2018-10-03T07:14:19.502Z - success: protocol uuid registerred
+2018-10-03T07:14:19.502Z - success: protocol db registerred
+2018-10-03T07:14:19.502Z - success: protocol thumbnail registerred
+2018-10-03T07:14:19.502Z - normal: Loading editor/builtin packages
+2018-10-03T07:14:19.619Z - success: assets loaded
+2018-10-03T07:14:19.623Z - success: builder loaded
+2018-10-03T07:14:19.626Z - success: cocos-analytics loaded
+2018-10-03T07:14:19.630Z - success: console loaded
+2018-10-03T07:14:19.657Z - success: fb-instant-games loaded
+2018-10-03T07:14:19.661Z - success: hierarchy loaded
+2018-10-03T07:14:19.665Z - success: inspector loaded
+2018-10-03T07:14:19.666Z - success: keystore loaded
+2018-10-03T07:14:19.670Z - success: node-library loaded
+2018-10-03T07:14:19.671Z - success: package-asset loaded
+2018-10-03T07:14:19.672Z - success: preferences loaded
+2018-10-03T07:14:19.676Z - success: project-exporter loaded
+2018-10-03T07:14:19.688Z - success: project-importer loaded
+2018-10-03T07:14:19.690Z - success: project-settings loaded
+2018-10-03T07:14:19.694Z - success: ui-kit loaded
+2018-10-03T07:14:19.698Z - success: scene loaded
+2018-10-03T07:14:19.700Z - success: sprite-editor loaded
+2018-10-03T07:14:19.703Z - success: store loaded
+2018-10-03T07:14:19.707Z - success: timeline loaded
+2018-10-03T07:14:19.708Z - normal: Loading builtin packages
+2018-10-03T07:14:19.730Z - success: asset-db-debugger loaded
+2018-10-03T07:14:19.731Z - success: color-picker loaded
+2018-10-03T07:14:19.738Z - success: jsb-adapter loaded
+2018-10-03T07:14:19.741Z - success: package-manager loaded
+2018-10-03T07:14:19.827Z - success: qqplay-adapter loaded
+2018-10-03T07:14:19.917Z - success: sdkbox loaded
+2018-10-03T07:14:19.923Z - success: tester loaded
+2018-10-03T07:14:19.927Z - success: ui-grid loaded
+2018-10-03T07:14:19.954Z - success: ui-kit-preview-extra loaded
+2018-10-03T07:14:19.975Z - success: ui-kit-preview loaded
+2018-10-03T07:14:19.978Z - success: ui-tree loaded
+2018-10-03T07:14:19.983Z - success: weapp-adapter loaded
+2018-10-03T07:14:20.737Z - normal: Loading packages
+2018-10-03T07:14:20.745Z - normal: Watching packages
+2018-10-03T07:14:20.808Z - normal: Run Application
+2018-10-03T07:14:21.317Z - success: preview server running at http://localhost:7457
+2018-10-03T07:59:09.837Z - failed: [db-task][sync-changes] Failed to import asset /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/assets/Script/APLLoader.js, message: Compile error: SyntaxError: /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/assets/Script/APLLoader.js: Unexpected token (94:12)
+  92 |                 // CryptLib = require('../dist/cryptLib.js');
+  93 | 
+> 94 |             } else {
+     |             ^
+  95 |                 console.log(users);
+  96 |             }
+  97 |         }
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$2.parseBindingAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3090:12)
+    at Parser.pp$1.parseVarHead (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2355:18)
+    at Parser.pp$1.parseVar (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2338:10)
+    at Parser.pp$1.parseVarStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2169:8)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1861:19)
+    at Parser.pp$1.parseBlockBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2268:21)
+    at Parser.pp$1.parseBlock (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2247:8)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1868:19)
+2018-10-03T08:05:17.479Z - info: mount-assets does not exists in library
+2018-10-03T08:07:22.941Z - failed: load script [././dist/CryptLib.js] failed : Error: Cannot find module '././dist/CryptLib.js'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.s._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:941)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:589)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:1:351
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:22:12)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:168:13
+2018-10-03T08:07:22.942Z - failed: load script [/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js] failed : TypeError: Cannot read property 'generateRandomIV' of undefined
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:24:18)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:168:13
+    at Object.<anonymous> (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:175:11)
+    at Object.<anonymous> (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:178:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+2018-10-03T08:08:12.708Z - failed: load script [../../dist/CryptLib.js] failed : Error: Cannot find module '../../dist/CryptLib.js'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.s._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:941)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:589)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:1:351
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:22:12)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:166:13
+2018-10-03T08:08:12.708Z - failed: load script [/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js] failed : ReferenceError: iv is not defined
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:28:24)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:166:13
+    at Object.<anonymous> (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:173:11)
+    at Object.<anonymous> (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:176:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+2018-10-03T08:08:44.959Z - failed: load script [../../ctyptlib/dist/CryptLib.js] failed : Error: Cannot find module '../../ctyptlib/dist/CryptLib.js'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.s._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:941)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:589)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:1:351
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:22:12)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:166:13
+2018-10-03T08:08:44.960Z - failed: load script [/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js] failed : ReferenceError: iv is not defined
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:28:24)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:166:13
+    at Object.<anonymous> (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:173:11)
+    at Object.<anonymous> (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:176:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+2018-10-03T08:09:34.388Z - failed: load script [././dist/CryptLib.js] failed : Error: Cannot find module '././dist/CryptLib.js'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.s._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:941)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:589)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:1:351
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:22:12)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:168:13
+2018-10-03T08:09:34.388Z - failed: load script [/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js] failed : TypeError: Cannot read property 'generateRandomIV' of undefined
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:24:18)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:168:13
+    at Object.<anonymous> (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:175:11)
+    at Object.<anonymous> (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:178:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+2018-10-03T08:17:34.174Z - failed: load script [././dist/CryptLib.js] failed : Error: Cannot find module '././dist/CryptLib.js'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.s._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:941)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:589)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:1:351
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:22:12)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:168:13
+2018-10-03T08:17:34.175Z - failed: load script [/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js] failed : TypeError: Cannot read property 'generateRandomIV' of undefined
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:24:18)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:168:13
+    at Object.<anonymous> (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:175:11)
+    at Object.<anonymous> (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:178:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+2018-10-03T08:18:41.915Z - failed: load script [../dist/CryptLib.js] failed : Error: Cannot find module '../dist/CryptLib.js'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.s._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:941)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:589)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:1:351
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:20:11)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:160:13
+2018-10-03T08:18:41.916Z - failed: load script [/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js] failed : ReferenceError: iv is not defined
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:22:24)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:160:13
+    at Object.<anonymous> (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:167:11)
+    at Object.<anonymous> (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:170:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+2018-10-03T08:19:01.518Z - failed: load script [../dist/CryptLib.js] failed : Error: Cannot find module '../dist/CryptLib.js'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.s._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:941)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:589)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:1:351
+    at __define (/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:20:11)
+    at /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/temp/quick-scripts/assets/Script/APLLoader.js:155:13
+2018-10-03T08:24:22.198Z - warn: Folder does not exist: 
+2018-10-03T09:31:42.418Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:32520
+2018-10-03T09:31:42.452Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:32522
+2018-10-03T09:41:42.449Z - normal: Start building with options : {
+  "actualPlatform": "web-mobile",
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build",
+  "debug": true,
+  "dest": "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile",
+  "embedWebDebugger": true,
+  "encryptJs": true,
+  "excludeScenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": true
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "07e2aae5-72af-4cc3-ab95-c646e11f78a6"
+  ],
+  "sourceMaps": false,
+  "startScene": "07e2aae5-72af-4cc3-ab95-c646e11f78a6",
+  "template": "link",
+  "title": "Encryption",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "022a85a4-e0bd-47",
+  "zipCompressJs": true,
+  "project": "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling",
+  "projectName": "Encryption",
+  "debugBuildWorker": false
+}
+2018-10-03T09:41:42.461Z - normal: Building /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling
+2018-10-03T09:41:42.461Z - normal: Destination /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile
+2018-10-03T09:41:42.674Z - normal: Delete /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile/**/*
+2018-10-03T09:41:47.082Z - normal: Start building assets
+2018-10-03T09:41:47.082Z - normal: Start spawn build-worker
+2018-10-03T09:41:47.661Z - normal: Finish spawn build-worker
+2018-10-03T09:41:47.661Z - normal: Start init build-worker
+2018-10-03T09:41:50.453Z - normal: Finish init build-worker
+2018-10-03T09:41:50.461Z - normal: Start build-assets in worker
+2018-10-03T09:41:50.711Z - normal: Finish build-assets in worker
+2018-10-03T09:41:50.714Z - normal: Finish building assets
+2018-10-03T09:41:50.717Z - normal: Start building plugin scripts
+2018-10-03T09:41:50.755Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-10-03T09:41:50.764Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template-dev/index.html
+2018-10-03T09:41:50.924Z - normal: Built to "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile" successfully
+2018-10-03T09:44:12.910Z - failed: [db-task][sync-changes] Failed to import asset /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/assets/Script/APLLoader.js, message: Compile error: SyntaxError: /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/assets/Script/APLLoader.js: Missing catch or finally clause (218:12)
+  216 |             var _strKey = this.inputKey.string;
+  217 |             key = _crypt.getHashSha256(_strKey, 32); //32 bytes = 256 bits
+> 218 |             try {
+      |             ^
+  219 |             originalText = _crypt.decrypt(cypherText, key, iv);
+  220 |             }, catch(e) {
+  221 |                 
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp$1.parseTryStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2161:10)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1854:19)
+    at Parser.pp$1.parseBlockBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2268:21)
+    at Parser.pp$1.parseBlock (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2247:8)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1868:19)
+    at Parser.pp$1.parseIfStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2059:26)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1846:19)
+    at Parser.pp$1.parseBlockBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2268:21)
+    at Parser.pp$1.parseBlock (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2247:8)
+2018-10-03T09:47:13.809Z - normal: Start building with options : {
+  "actualPlatform": "web-mobile",
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build",
+  "debug": true,
+  "dest": "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile",
+  "embedWebDebugger": true,
+  "encryptJs": true,
+  "excludeScenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": true
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "07e2aae5-72af-4cc3-ab95-c646e11f78a6"
+  ],
+  "sourceMaps": false,
+  "startScene": "07e2aae5-72af-4cc3-ab95-c646e11f78a6",
+  "template": "link",
+  "title": "Encryption",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "022a85a4-e0bd-47",
+  "zipCompressJs": true,
+  "project": "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling",
+  "projectName": "Encryption",
+  "debugBuildWorker": false
+}
+2018-10-03T09:47:13.834Z - normal: Building /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling
+2018-10-03T09:47:13.834Z - normal: Destination /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile
+2018-10-03T09:47:13.835Z - normal: Delete /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile/**/*
+2018-10-03T09:47:19.300Z - normal: Start building assets
+2018-10-03T09:47:19.301Z - normal: Start spawn build-worker
+2018-10-03T09:47:19.836Z - normal: Finish spawn build-worker
+2018-10-03T09:47:19.836Z - normal: Start init build-worker
+2018-10-03T09:47:22.347Z - normal: Finish init build-worker
+2018-10-03T09:47:22.355Z - normal: Start build-assets in worker
+2018-10-03T09:47:22.597Z - normal: Finish build-assets in worker
+2018-10-03T09:47:22.600Z - normal: Finish building assets
+2018-10-03T09:47:22.604Z - normal: Start building plugin scripts
+2018-10-03T09:47:22.641Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-10-03T09:47:22.645Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template-dev/index.html
+2018-10-03T09:47:22.853Z - normal: Built to "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile" successfully
+2018-10-03T09:49:37.373Z - normal: Start building with options : {
+  "actualPlatform": "web-mobile",
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build",
+  "debug": true,
+  "dest": "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile",
+  "embedWebDebugger": true,
+  "encryptJs": true,
+  "excludeScenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": true
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "07e2aae5-72af-4cc3-ab95-c646e11f78a6"
+  ],
+  "sourceMaps": false,
+  "startScene": "07e2aae5-72af-4cc3-ab95-c646e11f78a6",
+  "template": "link",
+  "title": "Encryption",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "022a85a4-e0bd-47",
+  "zipCompressJs": true,
+  "project": "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling",
+  "projectName": "Encryption",
+  "debugBuildWorker": false
+}
+2018-10-03T09:49:37.386Z - normal: Building /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling
+2018-10-03T09:49:37.386Z - normal: Destination /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile
+2018-10-03T09:49:37.386Z - normal: Delete /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile/**/*
+2018-10-03T09:49:41.619Z - normal: Start building assets
+2018-10-03T09:49:41.619Z - normal: Start spawn build-worker
+2018-10-03T09:49:42.164Z - normal: Finish spawn build-worker
+2018-10-03T09:49:42.164Z - normal: Start init build-worker
+2018-10-03T09:49:44.570Z - normal: Finish init build-worker
+2018-10-03T09:49:44.570Z - normal: Start build-assets in worker
+2018-10-03T09:49:44.768Z - normal: Finish build-assets in worker
+2018-10-03T09:49:44.770Z - normal: Finish building assets
+2018-10-03T09:49:44.773Z - normal: Start building plugin scripts
+2018-10-03T09:49:44.809Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-10-03T09:49:44.814Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template-dev/index.html
+2018-10-03T09:49:45.018Z - normal: Built to "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile" successfully
+2018-10-03T11:09:58.885Z - normal: Start building with options : {
+  "actualPlatform": "web-mobile",
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build",
+  "debug": true,
+  "dest": "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile",
+  "embedWebDebugger": true,
+  "encryptJs": true,
+  "excludeScenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": true
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "07e2aae5-72af-4cc3-ab95-c646e11f78a6"
+  ],
+  "sourceMaps": false,
+  "startScene": "07e2aae5-72af-4cc3-ab95-c646e11f78a6",
+  "template": "link",
+  "title": "Encryption",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "022a85a4-e0bd-47",
+  "zipCompressJs": true,
+  "project": "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling",
+  "projectName": "Encryption",
+  "debugBuildWorker": false
+}
+2018-10-03T11:09:58.887Z - normal: Building /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling
+2018-10-03T11:09:58.888Z - normal: Destination /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile
+2018-10-03T11:09:58.888Z - normal: Delete /Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile/**/*
+2018-10-03T11:10:02.908Z - normal: Start building assets
+2018-10-03T11:10:02.908Z - normal: Start spawn build-worker
+2018-10-03T11:10:03.424Z - normal: Finish spawn build-worker
+2018-10-03T11:10:03.424Z - normal: Start init build-worker
+2018-10-03T11:10:05.627Z - normal: Finish init build-worker
+2018-10-03T11:10:05.627Z - normal: Start build-assets in worker
+2018-10-03T11:10:05.800Z - normal: Finish build-assets in worker
+2018-10-03T11:10:05.802Z - normal: Finish building assets
+2018-10-03T11:10:05.806Z - normal: Start building plugin scripts
+2018-10-03T11:10:05.841Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-10-03T11:10:05.848Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template-dev/index.html
+2018-10-03T11:10:06.063Z - normal: Built to "/Users/tanetpornsirirat/Work/Cocos/CallAPITest/APICalling/build/web-mobile" successfully

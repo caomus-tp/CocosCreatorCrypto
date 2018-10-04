@@ -1,0 +1,109 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 28,
+      "y": 60,
+      "width": 2048,
+      "height": 1086,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 518,
+                "type": "panel",
+                "width": 410
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 562,
+                "type": "panel",
+                "width": 410
+              }
+            ],
+            "height": 1083,
+            "type": "dock-v",
+            "width": 410
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 768,
+                "type": "panel",
+                "width": 1014
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline"
+                ],
+                "height": 312,
+                "type": "panel",
+                "width": 1014
+              }
+            ],
+            "height": 1083,
+            "type": "dock-v",
+            "width": 1014
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector",
+              "node-library"
+            ],
+            "height": 1083,
+            "type": "panel",
+            "width": 612
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "console",
+        "timeline",
+        "inspector",
+        "node-library",
+        "assets",
+        "scene"
+      ]
+    }
+  },
+  "panels": {
+    "store": {
+      "x": 445,
+      "y": 88,
+      "width": 906,
+      "height": 1086
+    },
+    "builder": {
+      "x": 291,
+      "y": 173,
+      "width": 1442,
+      "height": 934
+    },
+    "preferences": {
+      "x": 0,
+      "y": 0,
+      "width": 2048,
+      "height": 1152
+    }
+  }
+}
